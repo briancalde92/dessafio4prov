@@ -1,0 +1,126 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: #F62B6B;
+}
+
+section img {
+    display: flex ;
+    padding: auto;
+}
+header h1 {
+    align-items: center;
+    background-color: #CB2561;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: white;
+    font-size: 3rem;
+    margin: 3rem;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    align-items: center;
+    background-color: #CB2561;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 3rem 1rem 3rem;
+
+}
+
+.section-container {
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem 1rem 1rem;
+    padding: 0;
+    width: 96%;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    justify-content: start !important;
+    margin: 1rem 0 1rem 0;
+    width: 96%; /*El espacio que quiero que ocupe*/
+}
+/* Gime: hasta aca quede, estuve horas intentando compactar mas las 
+imagenes e intentar darle el efecto que estamos buscando; como veras esta parte 
+es aislada en todo el trabajo prolijo que hiciste en el css, de tal modo no 
+modifica en nada la hoja de estilos que ya habias creado. te marco
+ desde aca que inicia
+hasta donde termina */
+.section-gallery{
+
+    display: flex;
+    width: 300px;
+    height: 350px;
+  
+}
+
+.gallery-img{
+
+    object-fit: cover;
+    margin: 0%;
+     width: 500px;
+     height: 430px;
+     padding: 0%;
+     
+
+}
+
+
+section img :hover{
+
+    cursor: crosshair;
+    width: 300px;
+}
+
+/* aqui termina lo que estuve haciendo espero podamos resolverlo. */
+.p-container {
+    border-bottom: 2px dotted #9A2836;
+    color: #9A2836;
+    display: flex;
+    font-weight: 600;
+    font-size: 1rem;
+    justify-content: end !important;
+    width: 96%;
+}
+
+.text-container {
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin: 0.8rem;
+}
+
+a {
+    background-color: rgb(2, 86, 2);
+    color: aliceblue;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: #CB2561;
+    font-size: 1.5rem;
+}
+
+footer p {
+    background-color: #F86F97;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1.5rem;
+    text-align: center;
+}
