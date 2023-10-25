@@ -1,0 +1,148 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: #F62B6B;
+    padding: 2rem;
+}
+
+header {
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/d/de/Mortal_Kombat_11_karakter_se%C3%A7me_ekran%C4%B1.jpg");
+    height: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-y: 35%;
+    background-position-x: 50%;
+    
+}
+
+header h1 {
+    background-color: #cb256257;
+    border-radius: 50%;
+    color: rgb(8, 6, 6);
+    font-size: 5rem;
+    margin: 0.5rem;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(71, 30, 54);
+    display: flex;
+    justify-content: start !important;
+    margin: 1rem 0 1rem 0;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #b7b4b563;
+    box-shadow:  3px 4px 20px 2px #cc6aa5;
+    padding: 1rem;
+    margin: 2rem 1.6rem 1rem 1.6rem;
+}
+
+section p {
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+    
+}
+
+.section2-container {
+    background-color: #fdfdfdbd;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+}
+
+.section-gallery{ 
+    align-items: center;
+    column-gap: 20px;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-galery {
+    display: flex;
+    scroll-snap-align: center;
+    min-width: 100%;
+    flex-wrap: nowrap;
+}
+
+.gallery-img{
+    align-items: center;
+    border-radius: 5%;
+    box-shadow:  3px 4px 20px 2px #b6c0d78b;
+    width: 15rem;
+    height: 10rem;
+    margin: 5px;
+    object-fit: cover;
+}
+
+
+.gallery-img:hover{
+    cursor: crosshair;
+    height: 12rem;
+    width: 18rem;
+}
+
+.caja-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+   
+}
+
+.div-container {
+    display: flex;
+    justify-content: center !important;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+a {
+    background-color: rgb(2, 86, 2);
+    color: aliceblue;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+a:hover {
+    background-color: #CB2561;
+    font-size: 2.5rem;
+    border: 3px solid #770730;
+}
+
+footer p {
+    background-color: #F86F97;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/*Scroll personalizado*/
+
+.section-gallery::-webkit-scrollbar {
+    background-color: #F86F97;
+    height: 4px;
+    width: 7% !important;
+}
+
+.section-gallery::-webkit-scrollbar-thumb { /*La barra*/
+    background-color: #bc2b5b;
+    border-radius: 10%;
+    width: 2vw;
+}
